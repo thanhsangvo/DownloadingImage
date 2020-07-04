@@ -11,6 +11,8 @@
 		E947C99224ADEA8D00779CBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947C99124ADEA8D00779CBC /* ContentView.swift */; };
 		E947C99424ADEA8F00779CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E947C99324ADEA8F00779CBC /* Assets.xcassets */; };
 		E947C99724ADEA8F00779CBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E947C99624ADEA8F00779CBC /* Preview Assets.xcassets */; };
+		E947C99F24ADEB1A00779CBC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947C99E24ADEB1A00779CBC /* ImageLoader.swift */; };
+		E947C9A124ADECB600779CBC /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E947C9A024ADECB600779CBC /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E947C99324ADEA8F00779CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E947C99624ADEA8F00779CBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E947C99824ADEA8F00779CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E947C99E24ADEB1A00779CBC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E947C9A024ADECB600779CBC /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				E947C98F24ADEA8D00779CBC /* DownloadingImageApp.swift */,
 				E947C99124ADEA8D00779CBC /* ContentView.swift */,
+				E947C9A024ADECB600779CBC /* URLImage.swift */,
+				E947C99E24ADEB1A00779CBC /* ImageLoader.swift */,
 				E947C99324ADEA8F00779CBC /* Assets.xcassets */,
 				E947C99824ADEA8F00779CBC /* Info.plist */,
 				E947C99524ADEA8F00779CBC /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				E947C99224ADEA8D00779CBC /* ContentView.swift in Sources */,
 				E947C99024ADEA8D00779CBC /* DownloadingImageApp.swift in Sources */,
+				E947C99F24ADEB1A00779CBC /* ImageLoader.swift in Sources */,
+				E947C9A124ADECB600779CBC /* URLImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
